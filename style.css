@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: large;
+    /* font-size: large; */
 }
 
 body {
@@ -179,4 +179,18 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .task button {
+        padding: 1em 0.7em;
+    }
 }
